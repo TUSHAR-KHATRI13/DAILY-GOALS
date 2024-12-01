@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* *{
+    border: solid red ;
+} */
+.container{
+    min-height: 100vh;
+    margin:auto;
+    width: 70%;
+    background-color: antiquewhite;
+    padding: 4vmax;
+    
+}
+.dailygoals{
+    text-align: center;
+}
+.container > form{
+    display: flex;
+    flex-direction: column; 
+    margin: 30px 0;
+
+}
+.task{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.task>button{
+    display: flex;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.task>button:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+input ,textarea, button {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+button{
+    cursor: pointer;
+    border:none;
+    background-color: black;
+    color: whitesmoke;
+
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.content{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    
+}
